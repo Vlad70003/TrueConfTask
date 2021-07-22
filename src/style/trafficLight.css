@@ -1,0 +1,31 @@
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid black;
+    background: #000;
+  }
+  .red {
+    background: rgba(255, 0, 0, 1);
+  }
+  .yellow {
+    background: rgba(255, 255, 0, 1);
+  }
+  .green {
+    background: rgba(0, 128, 0, 1);
+  }
+  .opacity {
+    opacity: 0.1;
+  }
+  #traffic-light {
+    width: 300px;
+    height: 750px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 7px solid black;
+    border-radius: 30px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
